@@ -1,0 +1,37 @@
+{
+    "public_server": {
+        "183": {
+            "name": "私有云-主干",
+            "descriptions": "主干开发",
+            "host": "192.168.1.1",
+            "username": "root",
+            "password": "root",
+            "www_directory_path": "/opt/xserver/xmodules/web/",
+            "release_zip_name": "xserver_web.zip",
+            "release_server": "155"
+        }
+    },
+    "release_server": {
+        "155": {
+            "name": "版本构建机",
+            "descriptions": "版本发布",
+            "host": "192.168.1.155",
+            "username": "root",
+            "password": "root",
+            "release_directory_path": "/root/"
+        }
+    },
+    "release_history": {
+        "trunk": {
+            "name": "主干开发",
+            "descriptions": "私有云主干开发",
+            "host": "",
+            "username": "",
+            "password": "",
+            "www_directory_path": "",
+            "release_zip_name": "xserver_web.zip",
+            "release_server": "155",
+            "svn": ""
+        }
+    }
+}
