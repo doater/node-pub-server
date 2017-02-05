@@ -19,7 +19,7 @@ node-pub-server是一款简洁、方便的部署工具，可以对打包后的�
 		|——cnpm_install.bat 点击安装本项目的依赖
 		|——server.json 服务器配置信息
 		|——server_pub.bat 一键发布
-		|——server_release 一键留存
+		|——server_release.bat 一键留存
 		|——gulpfile.js
 		|——package.json 
 
@@ -29,6 +29,8 @@ node-pub-server是一款简洁、方便的部署工具，可以对打包后的�
 1. 安装[nodejs](https://nodejs.org/en/)、[gulpjs](http://www.gulpjs.com.cn/)和[cnpm](https://npm.taobao.org/)
 2. 初始化：切到node-pub-server根目录运行`cnpm install`或者点击cnpm_install.bat文件
 3. 编写server.json即服务器配置信息文件，参照注释
+4. 项目留存点击*server_release.bat*文件
+5. 项目发布点击*server_pub.bat*文件
 
 具体工作流程请参照**gulpfile.js**文件
 
