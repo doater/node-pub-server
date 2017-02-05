@@ -1,3 +1,12 @@
+/*
+    public_server:发布主机
+    release_server:留存主机
+    release_history:留存历史记录
+    www_directory_path:项目在主机中的保存地址
+    release_zip_name:留存项目的名称
+    release_server:留存的主机地址
+    release_directory_path:留存的主机地址
+*/
 {
     "public_server": {
         "183": {
